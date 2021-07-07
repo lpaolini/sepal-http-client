@@ -1,0 +1,28 @@
+{
+    "name": "@sepal/http-client",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "license": "ISC",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "jest",
+        "testWatch": "jest --watchAll"
+    },
+    "dependencies": {
+        "@sepal/log": "git://github.com/lpaolini/sepal-log",
+        "base-64": "^1.0.0",
+        "request": "^2.88.2",
+        "rxjs": "^7.1.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.30.0",
+        "jest": "^27.0.6",
+        "jest-expect-message": "^1.0.2"
+    },
+    "jest": {
+        "setupFilesAfterEnv": [
+            "jest-expect-message"
+        ]
+    }
+}
